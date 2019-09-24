@@ -7,4 +7,5 @@ now clone repo with your editor https://help.github.com/en/articles/cloning-a-re
 
 Useful steps for function components. https://www.robinwieruch.de/react-function-component
 
+Basic React by Mosh https://www.youtube.com/watch?v=Ke90Tje7VS0&t=52s
 
