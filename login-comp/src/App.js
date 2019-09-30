@@ -10,19 +10,25 @@ function App() {
     const [count, setCount] = useState(0);
     const [email, setEmail] = useState();
     const [password, setPassword] = useState();
-    /*const onChangeHandler = (event) => {
-        setEmail(
-
-          event.target.value,
-
-        );
-
-    }*/
+    
+	const onChangeHandler = (event) => {
+        
+		if(event.target.id === "email") {
+			setEmail(
+				event.target.value,
+			);
+		} else {
+			setPassword(
+				event.target.value,
+			);
+		}
+		//onChangeHandler={event => { setEmail(event.target.value); }}
+		//onChangeHandler={event => { setPassword(event.target.value); }}
+	}
     const onClickHandler = () => {
         console.log('Email: ' + email);
 
         console.log('Password: ' + password);
-
     }
     const incrementHandler = () => {
         setCount(currentCount => currentCount + 1);
@@ -43,14 +49,14 @@ function App() {
               id="email"
               value={email}
               placeholder="Enter Email"
-              onChangeHandler={event => { setEmail(event.target.value); }}
+              onChange={onChangeHandler}
           /> <br />
           <Label lblName="Password: " />
           <Input type="text"
               id="password"
               value={password}
               placeholder="Enter Password"
-              onChangeHandler={event => { setPassword(event.target.value); }}
+              onChange={onChangeHandler}
           /> <br />
           <Button btnName="Login" onClickHandler={onClickHandler}/>
     </div>

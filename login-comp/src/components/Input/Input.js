@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Input = ({ type, id, value, placeholder, onChangeHandler }) => {
+const Input = ({ type, id, value, placeholder, onChange }) => {
   // const ref = createRef(); //todo
    //useEffect(() => ref.current.focus(), []); //todo
   return (
@@ -9,7 +9,7 @@ const Input = ({ type, id, value, placeholder, onChangeHandler }) => {
         id={id}
         value={value}
         placeholder={placeholder}
-        onChange={onChangeHandler}
+        onChange={onChange}
 	/>);
 };
 
