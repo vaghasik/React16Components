@@ -9,3 +9,4 @@ Useful steps for function components. https://www.robinwieruch.de/react-function
 
 Basic React by Mosh https://www.youtube.com/watch?v=Ke90Tje7VS0&t=52s
 
+OOP JS by Mosh => https://www.youtube.com/watch?v=PFmuCDHHpwk
