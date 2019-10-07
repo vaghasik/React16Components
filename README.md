@@ -10,3 +10,5 @@ Useful steps for function components. https://www.robinwieruch.de/react-function
 Basic React by Mosh https://www.youtube.com/watch?v=Ke90Tje7VS0&t=52s
 
 OOP JS by Mosh => https://www.youtube.com/watch?v=PFmuCDHHpwk
+
+Web-pack for loder https://medium.com/javascript-training/beginner-s-guide-to-webpack-b1f1a3638460
